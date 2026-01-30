@@ -1,0 +1,33 @@
+HEURISTIC DISCOVERY ENGINE (HDE) & ADAPTIVE PARAMETER EXPANSION (APE)
+
+Overview:
+The Heuristic Discovery Engine (HDE) is responsible for identifying novel patterns and heuristics that emerge from multi-domain simulation outputs. The Adaptive Parameter Expansion (APE) layer monitors unexplained variance in predicted outcomes and proposes new latent parameters to improve model fidelity.
+
+HDE Components:
+1. Pattern Miner:
+   - Scans sequences of state vectors and micro-events after each simulation cycle.
+   - Identifies recurrent correlations not explained by existing heuristics.
+   - Generates candidate heuristics with confidence scores.
+
+2. Heuristic Sandbox:
+   - Candidate heuristics with confidence > 0.7 are integrated in a sandboxed environment.
+   - Performance is tracked; poorly performing heuristics are deprecated.
+
+APE Components:
+1. Residual Variance Monitoring:
+   - Compares predicted vs. actual simulation outcomes across all node classes.
+   - Identifies key variables where residual variance exceeds 15% threshold.
+
+2. Latent Parameter Proposal:
+   - Suggests new parameters to better capture unexplained dynamics.
+   - Example: Protocol_Complexity (PC) = Codebase Size * Governance Changes.
+
+3. Integration:
+   - New parameters are added to the state vector as first-class citizens.
+   - Update rules learned via regression over historical simulation data.
+
+Capabilities Added:
+- Enables self-improvement by discovering previously unknown relationships.
+- Reduces blind spots in simulation predictions.
+- Enhances fidelity of cross-domain causal modeling.
+- Increases adaptability of the Sovereign Intelligence Engine to emergent phenomena.
