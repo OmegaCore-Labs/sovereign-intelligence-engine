@@ -1,0 +1,34 @@
+INTERACTIVE EXPLORATION INTERFACE (IEI)
+
+Overview:
+The IEI module provides a user-facing interface for live interaction with simulation scenarios. It allows authorized users to manipulate parameters, inject micro-events, and visualize system behavior across domains in real-time.
+
+Key Features:
+1. Frontend Control:
+   - Sliders for global parameters (e.g., η_LT, CSI_trend, RPS_threshold).
+   - Toggle switches to enable/disable specific heuristics or micro-events.
+   - Buttons to inject or remove scenario-specific events.
+
+2. Real-Time Visualization:
+   - Dynamic graphs for L (logistics), T (technology), E (environment), and other node metrics.
+   - Network-of-Networks display highlighting supernodes and their influence.
+   - Time-series plots for cross-domain propagation effects.
+
+3. Scenario Management:
+   - Load, save, and replay serialized scenarios via SSP integration.
+   - Snapshot comparison for before/after intervention analysis.
+
+4. Analytical Tools:
+   - On-the-fly RPS calculation for selected nodes or networks.
+   - Automated supernode fragility index (SFI) updates.
+   - Highlight non-linear cascade thresholds and critical tipping points.
+
+5. Output Export:
+   - Export current state, visualization snapshots, and scenario logs.
+   - Integrates seamlessly with ADE for immediate report generation.
+
+Capabilities Added:
+- Real-time interactive experimentation with simulations.
+- Visual comprehension of cross-domain cascades and heuristics.
+- Supports scenario-based decision-making and strategy testing.
+- Allows validation and testing of hypotheses within the engine.
