@@ -1,0 +1,47 @@
+# Sovereign Intelligence Engine: Structured Evaluation Inputs
+
+## Objective
+Provide formalized, structured inputs to systematically evaluate SIE performance across its multi-domain capabilities, scenario reproducibility, and cross-domain micro-event propagation.
+
+## Input Schema
+Each input is defined with the following fields:
+
+- config: Engine configuration parameters (resolution, node prioritization, adaptive heuristics toggles)
+- initial_state: Baseline state of all domains (physical, biological, societal, technological, emergent)
+- micro_event_log: Pre-existing micro-event records, if any
+- heuristic_log: Historical heuristics applied or discovered
+- external_sim_outputs: Optional outputs from federated simulators or external analysis modules
+- report: Placeholder for generated output summary
+- final_state: Placeholder for scenario end-state
+
+## Example Input
+
+config:
+  resolution: high
+  adaptive_heuristics: true
+  node_priority: [R2, R5, R7]
+
+initial_state:
+  physics: stable
+  biology: pandemic_alert_level_3
+  society: trust_index_65
+  technology: network_integrity_99
+  emergent: cascading_effects_none
+
+micro_event_log: []
+
+heuristic_log: []
+
+external_sim_outputs:
+  QSim: null
+  EMS: null
+
+report: null
+final_state: null
+
+## Evaluation Instructions
+- Run all inputs through full SIE stack.
+- Capture micro-event propagation, heuristic discovery, and scenario state transitions.
+- Validate reproducibility by rerunning deterministic seeds.
+- Generate SSP snapshots for all executed scenarios.
+- Record report output in 'report' field.
