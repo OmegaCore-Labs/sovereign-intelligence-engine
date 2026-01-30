@@ -1,0 +1,66 @@
+# Sovereign Intelligence Engine: Analytical Output Summary
+
+## Overview
+This report summarizes results from executed SIE scenarios, capturing multi-domain dynamics, micro-event propagation, heuristic discoveries, and final system states.
+
+## Report Fields
+
+- scenario_id: Unique identifier for the scenario
+- execution_timestamp: Date and time of run
+- config_used: Engine configuration parameters applied
+- initial_state: Domain baseline at scenario start
+- micro_event_log: All micro-events recorded during scenario
+- heuristic_log: Heuristics discovered or applied during scenario
+- external_sim_outputs: Federated simulator or external module outputs
+- final_state: System state at scenario completion
+- insights: Key emergent observations, cross-domain effects, anomalies
+- recommendations: Suggested modifications or follow-ups for testing or system updates
+
+## Example Entry
+
+scenario_id: SIE-2026-001
+execution_timestamp: 2026-01-30T12:15:00Z
+config_used:
+  resolution: high
+  adaptive_heuristics: true
+  node_priority: [R2, R5, R7]
+
+initial_state:
+  physics: stable
+  biology: pandemic_alert_level_3
+  society: trust_index_65
+  technology: network_integrity_99
+  emergent: cascading_effects_none
+
+micro_event_log:
+  - event_id: ME-001
+    domain: biology
+    description: Virus outbreak detected
+    impact: moderate
+    propagation: society, technology
+
+heuristic_log:
+  - heuristic_id: H-001
+    description: Early-warning cascade mitigation
+    outcome: successful
+
+external_sim_outputs:
+  QSim: null
+  EMS: null
+
+final_state:
+  physics: stable
+  biology: pandemic_alert_level_2
+  society: trust_index_70
+  technology: network_integrity_98
+  emergent: cascading_effects_minimal
+
+insights:
+  - Adaptive heuristics successfully mitigated pandemic impact
+  - Micro-events propagated to society and tech layers, triggering preemptive responses
+  - Cross-domain effects largely contained
+
+recommendations:
+  - Retain current adaptive heuristic parameters for biology domain
+  - Conduct additional scenario runs with extreme emergent stressors
+  - Validate system behavior under multiple simultaneous micro-events
