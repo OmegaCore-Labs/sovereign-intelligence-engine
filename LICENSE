@@ -1,0 +1,38 @@
+SOVEREIGN INTELLIGENCE LICENSE (SIL-1.0)
+
+Copyright (c) 2026 OmegaCore Research
+
+All rights reserved.
+
+1. DEFINITIONS
+   "Engine" refers to the Sovereign Intelligence Engine, including all code, models, documentation, scripts, and associated artifacts.
+   "Operator" refers exclusively to OmegaCore Research or any entity explicitly authorized in writing by OmegaCore Research.
+   "Outputs" refer to any results, reports, visualizations, or data produced by the Engine during execution.
+
+2. LICENSE GRANT
+   The Engine is licensed exclusively to the Operator. No other party may copy, distribute, modify, sublicense, sell, or otherwise use the Engine or its derivatives without prior written permission from OmegaCore Research.
+
+3. USE RESTRICTIONS
+   a. The Engine may only be executed by the Operator.  
+   b. No external parties may directly interact with or prompt the Engine independently.  
+   c. Redistribution, resale, or public deployment of the Engine is strictly prohibited.  
+   d. Outputs may be shared at the sole discretion of the Operator, but sharing does not grant any rights to the Engine itself.
+
+4. INTELLECTUAL PROPERTY
+   All intellectual property rights in the Engine and its components remain exclusively with OmegaCore Research. This License does not transfer ownership or any rights except as expressly stated.
+
+5. NO WARRANTY
+   The Engine is provided "as-is" without any warranty of any kind, express or implied, including but not limited to performance, accuracy, or fitness for a particular purpose.
+
+6. LIMITATION OF LIABILITY
+   Under no circumstances shall OmegaCore Research be liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use the Engine or its Outputs.
+
+7. TERMINATION
+   This License automatically terminates if the Operator transfers or grants access to the Engine in violation of this License. Upon termination, all copies, access, and control of the Engine must cease immediately.
+
+8. GOVERNING LAW
+   This License shall be governed by and interpreted in accordance with the laws of the Operator's jurisdiction.
+
+By using or accessing the Engine, you acknowledge and agree to the terms of this License.
+
+End of License
