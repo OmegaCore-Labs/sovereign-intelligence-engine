@@ -1,0 +1,57 @@
+# Sovereign Intelligence Engine: Executive Analytical Summary
+
+## Overview
+This summary distills insights from scenario simulations, adaptive heuristics performance, and multi-domain micro-events into a concise executive-level report. It is intended for strategic decision-making, risk assessment, and high-level oversight.
+
+## Sections
+
+- report_id: Unique identifier for this summary
+- generation_timestamp: Date and time the summary was produced
+- key_findings: Top-level observations from recent scenarios
+- domain_analysis:
+    - physics: Stability, critical thresholds, cascade risks
+    - biology: Contagion levels, mitigation effectiveness
+    - society: Trust, compliance, social cohesion
+    - technology: System integrity, cyber-physical risk
+    - emergent: Non-linear interactions and cascading effects
+- heuristic_review: Performance of adaptive heuristics and discovered patterns
+- scenario_recommendations: Recommended adjustments to scenario parameters or node prioritization
+- cross-domain_risks: Interdependencies that may propagate failures
+- executive_summary: One-paragraph synthesis for decision-makers
+- appendices: Optional links to detailed scenario reports or raw outputs
+
+## Example Entry
+
+report_id: EX-2026-001
+generation_timestamp: 2026-01-30T14:45:00Z
+
+key_findings:
+  - Adaptive heuristics prevented 87% of potential cascading failures
+  - Node prioritization successfully mitigated high-risk physics events
+  - Society domain remains most sensitive to emergent interactions
+
+domain_analysis:
+  physics: stable
+  biology: controlled outbreaks
+  society: trust_index_70
+  technology: network_integrity_98%
+  emergent: minor cascading effects
+
+heuristic_review:
+  - APE heuristics identified and corrected 12 previously unobserved failure paths
+  - Self-improving mechanisms successfully adapted to unplanned micro-events
+
+scenario_recommendations:
+  - Increase priority weight on society-critical nodes
+  - Introduce alternative micro-event seeding to test emergent resilience
+
+cross-domain_risks:
+  - Technology disruptions may amplify social instability
+  - Biological events can trigger emergent cascade effects
+
+executive_summary:
+  Adaptive heuristics and node prioritization demonstrate effective mitigation of multi-domain risks. Society remains the most sensitive domain. Recommend targeted scenario adjustments to ensure continued resilience.
+
+appendices:
+  - See scenario_comparison_report.txt
+  - Access detailed micro-event logs in /snapshots
