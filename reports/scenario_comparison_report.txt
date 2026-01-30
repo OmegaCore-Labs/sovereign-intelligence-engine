@@ -1,0 +1,55 @@
+# Sovereign Intelligence Engine: Scenario Comparison Report
+
+## Overview
+This report compares multiple scenario runs to identify cross-scenario trends, recurring micro-events, heuristic performance, and emergent patterns. It allows analysts to assess systemic stability, risk propagation, and effectiveness of adaptive heuristics.
+
+## Report Fields
+
+- scenario_ids: List of scenario identifiers being compared
+- comparison_timestamp: Date and time of report generation
+- summary_metrics:
+    - total_micro_events
+    - average_event_impact
+    - heuristic_success_rate
+    - cross_domain_propagation_rate
+- domain_aggregates:
+    - physics: aggregated stability metrics
+    - biology: aggregated health and outbreak metrics
+    - society: aggregated trust, compliance, and cohesion metrics
+    - technology: aggregated integrity and disruption metrics
+    - emergent: aggregated cascading or non-linear effects
+- anomalies_detected: Notes on significant deviations or unexpected outcomes
+- insights: Observed patterns across scenarios
+- recommendations: Suggested follow-up scenarios or parameter adjustments
+
+## Example Entry
+
+scenario_ids: [SIE-2026-001, SIE-2026-002, SIE-2026-003]
+comparison_timestamp: 2026-01-30T13:30:00Z
+
+summary_metrics:
+  total_micro_events: 128
+  average_event_impact: moderate
+  heuristic_success_rate: 92%
+  cross_domain_propagation_rate: low
+
+domain_aggregates:
+  physics: stable
+  biology: controlled_outbreaks
+  society: trust_index_mean_68
+  technology: network_integrity_mean_97
+  emergent: minimal_cascading_effects
+
+anomalies_detected:
+  - Scenario SIE-2026-002 showed unexpected tech disruption from biology micro-event ME-045
+  - Emergent effects in SIE-2026-003 propagated faster than predicted due to adaptive heuristic interactions
+
+insights:
+  - Adaptive heuristics consistently mitigated micro-event propagation
+  - Biology and society domains remain the most sensitive to cross-domain micro-events
+  - Emergent effects are predictable under high-resolution adaptive configurations
+
+recommendations:
+  - Adjust node priority weights to better protect sensitive domains
+  - Conduct additional runs with alternative micro-event seeding strategies
+  - Continue monitoring emergent layer interactions for anomalous behavior
