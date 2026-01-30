@@ -1,0 +1,31 @@
+# Sovereign Intelligence Engine: Canonical Test Prompts
+
+## Objective
+Provide structured prompts for testing all core capabilities of the Sovereign Intelligence Engine (SIE), including multi-domain reasoning, cross-domain micro-event propagation, heuristic adaptation, and scenario replay.
+
+## Prompt Categories
+
+1. **Strategic Foresight Simulation**
+   - "Analyze the impact of a sudden 30% drop in global energy production on geopolitical stability, supply chains, and technology networks over a 12-month horizon."
+   - "Simulate cascading infrastructure failures triggered by a Martian orbital network outage affecting Earth-Mars logistics nodes."
+
+2. **Cross-Domain Causal Analysis**
+   - "Evaluate how a pandemic scenario affects financial liquidity, healthcare system resilience, and societal trust indices in parallel regions R2 and R5."
+   - "Model the effect of a cyberattack on a supernode connecting quantum networks, digital ecosystems, and urban infrastructure."
+
+3. **Heuristic Discovery & Adaptive Parameter Testing**
+   - "Determine emergent patterns in the propagation of extreme event triggers across planetary and digital nodes."
+   - "Identify latent parameters in the adaptive learning layer after simulating a multi-layered climate catastrophe."
+
+4. **Scenario Replay & Validation**
+   - "Replay Scenario #042 with variations in the initial trust levels of R3 and R6. Report all changes in RPS, ΔL, and micro-event cascades."
+   - "Compare outcomes of Scenario #101 when external federated simulators (KW, EMS, QSim) are invoked vs. when they are bypassed."
+
+5. **System Robustness & Edge Cases**
+   - "Introduce an extreme event generator anomaly with P_extreme = 0.01/year. Evaluate global cascade impact."
+   - "Simulate simultaneous disruption of the top 3 supernodes and assess non-linear threshold effects."
+
+## Notes
+- All prompts are designed to trigger the full intelligence stack: node resolution, cross-domain micro-events, adaptive heuristics, and autonomous documentation.
+- Scenarios should be deterministic where seeds are specified and reproducible through SSP.
+- Each prompt includes expected output metrics: RPS, micro-event logs, heuristic updates, and final scenario state.
