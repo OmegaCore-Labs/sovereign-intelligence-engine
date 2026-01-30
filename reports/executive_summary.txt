@@ -22,6 +22,12 @@ Applications:
 Operational Status:
 The SIE is fully implemented, validated, and actively evolving. All modules, including the ADE, HDE, IEI, SSP, and MFO, are integrated into a unified architecture with deterministic outputs, reproducible scenarios, and auditable snapshots. The system operates under strict internal governance and exclusive operational control, ensuring integrity and sovereignty.
 
+Usage:
+The Sovereign Intelligence Engine operates under exclusive internal control. Only authorized prompts are executed, ensuring complete operational sovereignty. The system is not accessible as a public tool or service.
+
+Reporting:
+Outputs include structured scenario reports, micro-event logs, heuristic discovery logs, and executive summaries. Detailed analytics are available in `/reports` and snapshots in `/snapshots`.
+
 Conclusion:
 The Sovereign Intelligence Engine establishes a new standard for cross-domain intelligence and sovereign AI operations. By integrating causal reasoning, adaptive heuristics, and rigorous validation, it provides stakeholders with reliable, auditable insights for strategic, research, and operational decision-making.
 
