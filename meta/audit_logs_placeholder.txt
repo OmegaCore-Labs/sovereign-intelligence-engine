@@ -1,0 +1,8 @@
+# Audit Logs Placeholder for Sovereign Intelligence Engine
+
+This file exists to initialize the /meta/audit_logs/ directory.
+All module interactions, system executions, and governance events
+will be logged here as individual timestamped files in plain text.
+
+Do not remove this placeholder file. Actual audit logs will be
+created automatically by the engine in this folder.
