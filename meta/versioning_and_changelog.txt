@@ -1,0 +1,34 @@
+Sovereign Intelligence Engine — Versioning and Changelog
+
+Version 1.0.0 — 2026-01-30
+- Initial operational release of the Sovereign Intelligence Engine (SIE)
+- Integrated all core modules:
+    * Node Taxonomy & Mechanics
+    * Resolution & Adaptive Mechanisms
+    * Heuristic Discovery Engine (HDE) & Adaptive Parameter Expansion (APE)
+    * Meta-Federation Orchestrator (MFO)
+    * Cross-Domain Micro-Events & Supernode Analysis
+    * Autonomous Documentation Engine (ADE)
+    * Scenario Serialization & Packaging (SSP)
+    * Interactive Exploration Interface (IEI)
+- Baseline canonical prompts and structured evaluation inputs established
+- System overview document finalized
+
+Version 1.0.1 — 2026-01-30
+- Minor formatting corrections in reports and ADE module
+- Cross-domain event propagation calibration improved
+- Scenario Serialization schema updated for deterministic replay
+
+Version 1.1.0 — 2026-01-31 (Planned)
+- Integration of additional external simulators into MFO
+- Enhancement of APE latent parameter discovery algorithms
+- Expansion of micro-event library to include stochastic extreme events
+- Reporting templates extended for advanced executive summaries
+- Audit logs and governance protocols formalized
+
+Versioning Guidelines:
+- Major version increments (X.0.0) for full system upgrades or architecture changes
+- Minor version increments (1.X.0) for new modules, features, or expanded capabilities
+- Patch increments (1.0.X) for corrections, documentation updates, or calibration fixes
+
+All changes are tracked in the meta repository and tagged in the SIE Git history.
