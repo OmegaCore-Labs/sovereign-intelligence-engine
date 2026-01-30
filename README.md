@@ -1,19 +1,28 @@
-Sovereign Intelligence Engine
+REPO OVERVIEW
 
-A sovereign-grade, multi-domain intelligence architecture designed to model, simulate, and analyze complex systems across physics, biology, society, technology, and emergent phenomena.
+The Sovereign Intelligence Engine repository (“foundational-artifacts”) documents a sovereign-grade, multi-domain intelligence system designed for deep modeling, simulation, and analysis across physics, biology, society, technology, and emergent phenomena.
 
-This repository documents the architecture, methodology, validation snapshots, and analytical outputs of an operational intelligence engine capable of cross-domain causal reasoning, irreversible threshold detection, and self-improving heuristic discovery.
+**Purpose:**
+- To provide a structured, auditable framework for high-stakes scenario analysis, cross-domain causal reasoning, and adaptive heuristic discovery.
+- To preserve the system’s operational sovereignty while enabling rigorous evaluation and strategic insights.
+- To serve as a reference for research, governance, and advanced intelligence operations, not as a SaaS or public-facing AI tool.
 
-The system is designed for:
-- Strategic foresight
-- Defense and security analysis
-- Complex systems research
-- Cross-domain risk modeling
-- High-stakes decision support
+**Contents:**
+- /architecture: Module-level architecture, node taxonomies, adaptive mechanisms, and exploration interfaces.
+- /meta: Governance notes, audit logs, versioning, and changelogs.
+- /prompts: Canonical test prompts and structured evaluation inputs for system verification.
+- /reports: Executive summaries and compiled scenario analyses for decision-making.
+- /snapshots: Validation snapshots and scenario states for reproducibility.
+- LICENSE: Apache 2.0 license governing use and distribution.
+- README.md: Repository overview, core capabilities, operational status, and guidance.
 
-This is not a chatbot, SaaS product, or narrow AI tool.
-It is a sovereign intelligence framework focused on system-level understanding, prediction, and intervention analysis.
+**Intended Audience:**
+- Internal strategic planners and researchers
+- Stakeholders requiring auditable intelligence outputs
+- Developers and analysts evaluating cross-domain system behavior
 
+**Status:**
+Operational. Fully implemented, validated, and actively maintained under exclusive control. All modules integrate into a unified system narrative with deterministic outputs and reproducible scenarios.
 
 CORE CAPABILITIES
 
@@ -38,7 +47,6 @@ CORE CAPABILITIES
 - Reproducible, Serializable Scenarios
   Deterministic replay, auditability, and snapshot-based validation.
 
-
 REPOSITORY STRUCTURE
 
 /docs
@@ -61,7 +69,6 @@ REPOSITORY STRUCTURE
 
 Each directory is designed to stand alone while contributing to a unified system narrative.
 
-
 STATUS
 
 Operational.
@@ -70,9 +77,15 @@ The architecture, simulation framework, and analysis pipeline described here are
 
 This repository represents a living but stable intelligence system, not a prototype or proof of concept.
 
-
 LICENSE
 
-This repository is released under the Sovereign Intelligence License (SIL-1.0). 
+This repository is released under the Apache License, Version 2.0.
 
-The license grants exclusive rights to the Operator (OmegaCore Research) to execute and control the Sovereign Intelligence Engine. Outputs may be shared at the Operator’s discretion, but the Engine itself is not available for independent use. See the SIL-1.0 file for full terms.
+The license applies to all source files and documentation unless otherwise noted.
+See the LICENSE file for full terms.
+
+CONTACT
+
+OmegaCore Research  
+Email: omegacore.research@proton.me  
+GitHub: github.com/omegacore-research
