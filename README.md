@@ -73,7 +73,6 @@ This repository represents a living but stable intelligence system, not a protot
 
 LICENSE
 
-This repository is released under the Apache License, Version 2.0.
+This repository is released under the Sovereign Intelligence License (SIL-1.0). 
 
-The license applies to all source files and documentation unless otherwise noted.
-See the LICENSE file for full terms.
+The license grants exclusive rights to the Operator (OmegaCore Research) to execute and control the Sovereign Intelligence Engine. Outputs may be shared at the Operator’s discretion, but the Engine itself is not available for independent use. See the SIL-1.0 file for full terms.
