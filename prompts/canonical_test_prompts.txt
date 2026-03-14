@@ -1,31 +1,205 @@
-# Sovereign Intelligence Engine: Canonical Test Prompts
+# Sovereign Intelligence Engine: Canonical Test Prompts vΩ.65.TRANSCENDENT
 
 ## Objective
-Provide structured prompts for testing all core capabilities of the Sovereign Intelligence Engine (SIE), including multi-domain reasoning, cross-domain micro-event propagation, heuristic adaptation, and scenario replay.
+Provide structured prompts for testing all core capabilities of the Sovereign Intelligence Engine (SIE), including original multi-domain reasoning, cross-domain micro-event propagation, heuristic adaptation, scenario replay, and all Ω.65.TRANSCENDENT upgrades: quantum computing, consciousness frameworks, multiverse simulation, cross-language interop, laboratory integration, and agent collective operations.
 
 ## Prompt Categories
 
-1. **Strategic Foresight Simulation**
-   - "Analyze the impact of a sudden 30% drop in global energy production on geopolitical stability, supply chains, and technology networks over a 12-month horizon."
-   - "Simulate cascading infrastructure failures triggered by a Martian orbital network outage affecting Earth-Mars logistics nodes."
+### 1. Strategic Foresight Simulation (Original)
+- "Analyze the impact of a sudden 30% drop in global energy production on geopolitical stability, supply chains, and technology networks over a 12-month horizon."
+- "Simulate cascading infrastructure failures triggered by a Martian orbital network outage affecting Earth-Mars logistics nodes."
 
-2. **Cross-Domain Causal Analysis**
-   - "Evaluate how a pandemic scenario affects financial liquidity, healthcare system resilience, and societal trust indices in parallel regions R2 and R5."
-   - "Model the effect of a cyberattack on a supernode connecting quantum networks, digital ecosystems, and urban infrastructure."
+### 2. Cross-Domain Causal Analysis (Original)
+- "Evaluate how a pandemic scenario affects financial liquidity, healthcare system resilience, and societal trust indices in parallel regions R2 and R5."
+- "Model the effect of a cyberattack on a supernode connecting quantum networks, digital ecosystems, and urban infrastructure."
 
-3. **Heuristic Discovery & Adaptive Parameter Testing**
-   - "Determine emergent patterns in the propagation of extreme event triggers across planetary and digital nodes."
-   - "Identify latent parameters in the adaptive learning layer after simulating a multi-layered climate catastrophe."
+### 3. Heuristic Discovery & Adaptive Parameter Testing (Original)
+- "Determine emergent patterns in the propagation of extreme event triggers across planetary and digital nodes."
+- "Identify latent parameters in the adaptive learning layer after simulating a multi-layered climate catastrophe."
 
-4. **Scenario Replay & Validation**
-   - "Replay Scenario #042 with variations in the initial trust levels of R3 and R6. Report all changes in RPS, ΔL, and micro-event cascades."
-   - "Compare outcomes of Scenario #101 when external federated simulators (KW, EMS, QSim) are invoked vs. when they are bypassed."
+### 4. Scenario Replay & Validation (Original)
+- "Replay Scenario #042 with variations in the initial trust levels of R3 and R6. Report all changes in RPS, ΔL, and micro-event cascades."
+- "Compare outcomes of Scenario #101 when external federated simulators (KW, EMS, QSim) are invoked vs. when they are bypassed."
 
-5. **System Robustness & Edge Cases**
-   - "Introduce an extreme event generator anomaly with P_extreme = 0.01/year. Evaluate global cascade impact."
-   - "Simulate simultaneous disruption of the top 3 supernodes and assess non-linear threshold effects."
+### 5. System Robustness & Edge Cases (Original)
+- "Introduce an extreme event generator anomaly with P_extreme = 0.01/year. Evaluate global cascade impact."
+- "Simulate simultaneous disruption of the top 3 supernodes and assess non-linear threshold effects."
+
+---
+
+### 6. QUANTUM ARCHITECTURE TEST PROMPTS (New - Ω.65)
+
+#### 6.1 Quantum Circuit Simulation
+- "Simulate a 30-qubit quantum Fourier transform circuit using the state vector backend. Report runtime, memory usage, and output probabilities."
+- "Compare tensor network simulation vs state vector simulation for a 50-qubit random circuit with bond dimension χ=64. Report fidelity estimates and performance metrics."
+- "Run Shor's algorithm for N=15 using the optimized implementation. Verify factors and report quantum circuit depth."
+
+#### 6.2 Quantum Algorithms
+- "Execute QAOA for MaxCut on a 20-node random graph with p=4 layers. Optimize parameters using Bayesian optimization and report final cut value."
+- "Run VQE for the H2O molecule using UCCSD ansatz with cc-pVDZ basis set. Report ground state energy and compare to classical FCI reference."
+- "Implement Grover's search for a 16-item database with 4 solutions. Calculate optimal iterations and report success probability."
+
+#### 6.3 Quantum Error Correction
+- "Encode a logical qubit using surface code with distance 3. Simulate circuit-level noise with p=0.001 and run 1000 syndrome measurement cycles. Report logical error rate."
+- "Compare MWPM decoder vs Union-Find decoder for surface code distance 5 under depolarizing noise. Report decoding time and logical fidelity."
+- "Simulate magic state distillation for |T⟩ states using Bravyi-Kitaev protocol. Report output fidelity after 15 rounds."
+
+#### 6.4 Quantum Hardware Models
+- "Execute a Bernstein-Vazirani circuit on the IBM Perth hardware model with noise simulation. Compare ideal vs noisy output distributions."
+- "Simulate trapped ion hardware for a 10-qubit GHZ state preparation. Report gate fidelities and coherence requirements."
+- "Model superconducting qubit crosstalk for a 5-qubit chain with nearest-neighbor coupling. Quantify error rates in simultaneous gate operations."
+
+#### 6.5 Quantum Chemistry
+- "Compute potential energy surface for H2 bond dissociation using VQE with STO-3G basis. Generate curve from 0.5Å to 3.0Å."
+- "Run quantum subspace expansion to find first three excited states of LiH. Report excitation energies and oscillator strengths."
+- "Simulate nitrogen fixation reaction pathway using quantum chemistry + molecular dynamics. Identify rate-limiting step."
+
+#### 6.6 Quantum Integration
+- "Execute hybrid classical-quantum workflow: use classical optimizer for VQE parameters, quantum simulator for energy evaluation. Report convergence trajectory."
+- "Convert a Qiskit circuit to Cirq, then to Q#, and execute on all three backends. Verify output consistency across languages."
+- "Stream quantum measurement results in real-time to holographic display. Visualize 20-qubit state evolution during algorithm execution."
+
+---
+
+### 7. CONSCIOUSNESS FRAMEWORK TEST PROMPTS (New - Ω.65)
+
+#### 7.1 Integrated Information Theory (IIT)
+- "Compute Φ for a 5-element logical gate network with AND, OR, XOR gates. Identify the major complex and report its cause-effect structure."
+- "Estimate Φ from resting-state fMRI data using the spectral approximation method. Compare across 10 subjects and report variance."
+- "Simulate anesthesia induction on a neural mass model. Track Φ trajectory and identify loss of consciousness threshold."
+
+#### 7.2 Global Workspace Theory (GWT)
+- "Simulate binocular rivalry with two competing visual processors. Report dominance durations and switching dynamics over 60 seconds."
+- "Run attentional blink simulation with lag varying from 100ms to 600ms. Generate accuracy vs lag curve and identify blink window."
+- "Implement top-down attention modulation during visual search task. Compare workspace contents with and without attention bias."
+
+#### 7.3 Higher-Order Thought (HOT)
+- "Build hierarchical state model with 20 first-order states. Generate HOTs probabilistically and classify conscious vs unconscious states."
+- "Compute metacognitive sensitivity (d') for a system with 50% inaccurate HOTs. Report confidence-accuracy correlation."
+- "Simulate anosognosia by introducing deficits without corresponding HOTs. Detect unawareness using clinical assessment tools."
+
+#### 7.4 Predictive Processing
+- "Run hierarchical inference on natural images through 5-layer generative model. Report prediction errors at each level and free energy convergence."
+- "Simulate mismatch negativity by presenting deviant tones after standard sequence. Generate ERP waveform and identify MMN peak."
+- "Implement active inference agent in grid world. Select actions minimizing expected free energy and report path efficiency."
+
+#### 7.5 Qualia Space
+- "Generate color qualia space with opponent dimensions. Plot similarity structure for 20 colors and identify unique hues."
+- "Learn cross-modal mapping between auditory pitch and color hue. Report mapping accuracy and generate synesthesia simulation."
+- "Simulate color afterimage by adapting to red for 30 seconds. Report perceived color of white before and after adaptation."
+
+#### 7.6 Altered States
+- "Simulate 20-minute focused attention meditation. Report arousal, awareness, and coherence trajectories over time."
+- "Run psychedelic experience simulation for psilocybin 2.5g. Generate phenomenological report across come-up, peak, plateau, and come-down."
+- "Simulate REM sleep across 4 cycles. Report dream content, bizarreness, and emotional valence for each segment."
+
+#### 7.7 Consciousness Integration
+- "Synchronize IIT, GWT, and HOT frameworks for a single neural dataset. Report unified consciousness state with cross-framework confidence."
+- "Validate hybrid consciousness model against fMRI data. Compare predictive accuracy of weighted combination vs individual frameworks."
+- "Generate comprehensive consciousness report for a simulated patient. Include Φ, workspace contents, HOT hierarchy, and qualia vector."
+
+---
+
+### 8. MULTIVERSE ARCHITECTURE TEST PROMPTS (New - Ω.65)
+
+#### 8.1 Branching Timelines
+- "Simulate timeline branching at 10 decision points with 3 options each. Calculate total branches, max depth, and most probable path."
+- "Find divergence point between two historical timelines: one where Archduke survives vs actual history. Report causal chain differences."
+- "Generate ASCII tree visualization for timeline with 50 branches. Highlight path with highest cumulative probability."
+
+#### 8.2 Parallel Universe Generation
+- "Generate 100 parallel universes with random variations in fine structure constant (±10%). Report distribution of star formation efficiency."
+- "Create grid of universes varying gravitational constant (0.5x, 1x, 2x) and cosmological constant (0.1x, 1x, 10x). Simulate each for 10^10 years."
+- "Compute distance matrix between 20 generated universes. Identify clusters of similar physics and visualize with t-SNE."
+
+#### 8.3 Counterfactual Engine
+- "Run 'What if Napoleon won Waterloo' counterfactual. Propagate changes through causal network and report modified timeline."
+- "Generate 5 personal counterfactuals for career path alternatives. Compare outcomes for technology level, income, and life satisfaction."
+- "Analyze 'no internet' counterfactual: remove all internet-dependent events from 1980-2024. Report global GDP and social connectivity changes."
+
+#### 8.4 Many-Worlds Interface
+- "Simulate Schrödinger's cat experiment with poison probability 0.5. Report branch amplitudes and observer states for alive/dead branches."
+- "Run 20-qubit quantum circuit with measurements at each step. Track branch family tree and probability distribution across all outcomes."
+- "Calculate interference between two quantum branches with amplitudes 0.6+0.3i and 0.4-0.5i. Report observable effects."
+
+#### 8.5 Timeline Navigation
+- "Navigate from prime timeline to timeline where Roman Empire never fell. Check compatibility and transfer 3 cultural entities."
+- "Set waypoints at 5 different timelines. Jump between them and verify state preservation at each return."
+- "Compare 10 timelines on technology level, population, and conflict frequency. Highlight most and least desirable outcomes."
+
+---
+
+### 9. CROSS-LANGUAGE INTEROPERABILITY TEST PROMPTS (New - Ω.65)
+
+- "Implement quicksort algorithm in all 24 supported languages. Execute each and verify output consistency."
+- "Convert Python machine learning script to R, then to MATLAB. Execute all three and compare numerical results."
+- "Write a quantum circuit in Qiskit, convert to Cirq, then to Q#. Verify circuit equivalence through simulation."
+- "Call Python function from JavaScript, result to Rust, then to COBOL for legacy integration. Report end-to-end execution time."
+
+---
+
+### 10. LABORATORY INTEGRATION TEST PROMPTS (New - Ω.65)
+
+#### 10.1 Single Laboratory
+- "Run molecular dynamics simulation in chemical lab for protein folding. Report folding time and intermediate states."
+- "Execute financial market crash simulation in financial lab. Identify cascading failures across 1000 correlated assets."
+
+#### 10.2 Cross-Laboratory
+- "Integrate medical lab drug simulation with robotics lab surgical planning. Optimize robotic surgery parameters for specific patient."
+- "Combine quantum chemistry lab with materials lab to design room-temperature superconductor. Report predicted critical temperature."
+- "Link environmental lab climate model with agricultural lab crop yields. Predict food security impacts for 2050 scenarios."
+
+---
+
+### 11. AGENT COLLECTIVE TEST PROMPTS (New - Ω.65)
+
+- "Deploy 1000 agents across quantum, consciousness, and multiverse domains. Report inter-agent communication patterns."
+- "Assign autonomous optimization task to agent collective: improve quantum circuit compilation. Measure collective improvement over 24 hours."
+- "Simulate agent failure cascade: remove 10% of agents and observe adaptation strategies in remaining collective."
+- "Generate agent hierarchy visualization showing communication pathways and authority structure."
+
+---
+
+### 12. ARIS RECURSIVE IMPROVEMENT TEST PROMPTS (New - Ω.65)
+
+- "Run ARIS self-optimization cycle for quantum simulation backend. Report performance improvement before and after."
+- "Track heuristic discovery over 100 simulation runs. Identify novel patterns discovered by ARIS without explicit instruction."
+- "Measure recursive improvement rate across 10 consecutive cycles. Extrapolate capability growth trajectory."
+
+---
+
+### 13. INTEGRATED CROSS-DOMAIN TEST PROMPTS (New - Ω.65)
+
+- "Simulate quantum measurement event (many-worlds branching) affecting consciousness (observer state) across multiple timelines. Report unified outcome."
+- "Run counterfactual where fine structure constant differs by 1%. Propagate through quantum chemistry → material properties → technology development → timeline branching."
+- "Generate altered state of consciousness (psychedelic) and simulate qualia experienced. Map to color space and compare across 10 parallel universes."
+- "Deploy agent collective to explore 1000 timelines simultaneously. Aggregate findings into unified multiverse report."
+
+---
+
+## Expected Output Metrics by Category
+
+| Category | Required Outputs |
+|----------|------------------|
+| Strategic Foresight | RPS, ΔL, micro-event logs, heuristic updates, scenario state |
+| Quantum | Circuit diagrams, probability distributions, fidelity metrics, runtime, energy values |
+| Consciousness | Φ values, workspace contents, HOT hierarchy, qualia vectors, state trajectories |
+| Multiverse | Branch probabilities, timeline trees, compatibility scores, difference reports |
+| Cross-Language | Execution logs, conversion success, output consistency |
+| Laboratory | Experimental results, methodology logs, cross-lab integration reports |
+| Agent Collective | Communication graphs, task completion rates, adaptation metrics |
+| ARIS | Improvement rates, discovered heuristics, optimization logs |
+| Integrated | Unified state reports, cross-domain correlations, synthesis summaries |
 
 ## Notes
-- All prompts are designed to trigger the full intelligence stack: node resolution, cross-domain micro-events, adaptive heuristics, and autonomous documentation.
+- All prompts are designed to trigger the full intelligence stack: original capabilities plus all Ω.65.TRANSCENDENT upgrades.
 - Scenarios should be deterministic where seeds are specified and reproducible through SSP.
-- Each prompt includes expected output metrics: RPS, micro-event logs, heuristic updates, and final scenario state.
+- Each prompt includes expected output metrics as specified above.
+- New prompts can be added following the same pattern: clear objective, explicit constraints, defined outputs.
+- Cross-domain prompts test integration between quantum, consciousness, multiverse, and original capabilities.
+
+---
+
+**Last Updated:** 2026
+**Version:** vΩ.65.TRANSCENDENT
+**Status:** Active
