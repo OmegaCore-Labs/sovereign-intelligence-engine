@@ -1,25 +1,309 @@
-# Sovereign Intelligence Engine: Structured Evaluation Inputs
+# Sovereign Intelligence Engine: Structured Evaluation Inputs vΩ.65.TRANSCENDENT
 
 ## Objective
-Provide formalized, structured inputs to systematically evaluate SIE performance across its multi-domain capabilities, scenario reproducibility, and cross-domain micro-event propagation.
+Provide formalized, structured inputs to systematically evaluate SIE performance across its multi-domain capabilities, scenario reproducibility, cross-domain micro-event propagation, and all Ω.65.TRANSCENDENT upgrades including quantum computing, consciousness frameworks, multiverse simulation, cross-language interop, laboratory integration, and agent collective operations.
 
 ## Input Schema
-Each input is defined with the following fields:
+Each input is defined with the following fields. All fields are optional; unspecified fields use system defaults.
 
-- config: Engine configuration parameters (resolution, node prioritization, adaptive heuristics toggles)
-- initial_state: Baseline state of all domains (physical, biological, societal, technological, emergent)
-- micro_event_log: Pre-existing micro-event records, if any
-- heuristic_log: Historical heuristics applied or discovered
-- external_sim_outputs: Optional outputs from federated simulators or external analysis modules
-- report: Placeholder for generated output summary
-- final_state: Placeholder for scenario end-state
+### Core Configuration Fields (Original + Expanded)
 
-## Example Input
-
+```yaml
 config:
-  resolution: high
+  # Original fields
+  resolution: [low, medium, high, adaptive, quantum, consciousness, multiverse]
+  adaptive_heuristics: [true, false]
+  node_priority: [list of node IDs or types]
+  
+  # New Ω.65 fields
+  quantum_config:
+    backend: [state_vector, tensor_network, stabilizer, hardware_ibm, hardware_ionq, hardware_aws]
+    qubits: [integer, default: system determined]
+    noise_model: [none, depolarizing, amplitude_damping, hardware_specific]
+    error_correction: [none, surface_code_d3, surface_code_d5, steane]
+    
+  consciousness_config:
+    frameworks: [iit, gwt, hot, pp, qualia, altered, all]
+    iit_approximation: [exact, sampling, spectral, geometric]
+    gwt_capacity: [integer, default: 4]
+    hot_max_depth: [integer, default: 3]
+    qualia_dimensions: [integer, default: 100]
+    
+  multiverse_config:
+    timeline_tracking: [true, false]
+    max_branches: [integer, default: 1000]
+    parallel_universes: [integer, default: 1]
+    counterfactual_depth: [integer, default: 10]
+    
+  language_config:
+    primary_language: [python, javascript, rust, etc. - 24 options]
+    target_languages: [list of languages for interop testing]
+    cross_language: [true, false]
+    
+  laboratory_config:
+    active_labs: [list of lab types from 19 options]
+    cross_lab_experiments: [true, false]
+    
+  agent_config:
+    agent_count: [integer, default: system determined]
+    agent_autonomy: [none, limited, full]
+    agent_communication: [none, local, global]
+    
+  aris_config:
+    self_improvement: [true, false]
+    optimization_cycles: [integer, default: 1]
+    heuristic_discovery: [true, false]
+Initial State Fields (Original + Expanded)
+yaml
+initial_state:
+  # Original fields
+  physics: [stable, unstable, critical, post_event]
+  biology: [description of biological state, alert levels, etc.]
+  society: [trust_index_value, stability_metrics, etc.]
+  technology: [network_integrity, cyber_readiness, etc.]
+  emergent: [cascading_effects_none, active_cascades, etc.]
+  
+  # New Ω.65 fields
+  quantum_state:
+    circuits: [list of circuit definitions or references]
+    algorithm_in_progress: [none, shor, grover, qaoa, vqe, etc.]
+    quantum_hardware: [simulated, ibm_perth, ionq, etc.]
+    error_budget: [float, default: 0.001]
+    
+  consciousness_state:
+    iit_system:
+      elements: [integer]
+      mechanism: [function definition or reference]
+      current_state: [binary array or description]
+    gwt_workspace:
+      contents: [list of current workspace items]
+      attention_weights: [array or description]
+    hot_hierarchy:
+      states: [list of states at each level]
+    qualia_current: [vector or named quale]
+    altered_current: [state name from library]
+    
+  multiverse_state:
+    current_timeline: [timeline_id]
+    current_universe: [universe_id]
+    active_branches: [list of branch IDs]
+    timeline_tree: [reference to tree structure]
+    parallel_universes: [list of universe IDs]
+    
+  laboratory_states:
+    each_active_lab: [lab-specific state variables]
+    
+  agent_states:
+    agent_registry: [list of active agent IDs]
+    agent_tasks: [mapping of agent_id -> current task]
+    agent_communication_graph: [reference or description]
+Micro-Event Log (Original - Updated)
+yaml
+micro_event_log:
+  # Original format preserved
+  - event_id: [string]
+    timestamp: [float]
+    domain: [physical, biological, social, technical, quantum, consciousness, multiverse]
+    description: [string]
+    affected_nodes: [list of node IDs]
+    parameters: [dict of event-specific parameters]
+    
+  # Can now include quantum-specific events
+  - event_id: "quantum_measurement_001"
+    timestamp: 1.234
+    domain: quantum
+    description: "Measurement of qubit 0 in superposition state"
+    affected_nodes: ["Q001", "Q002"]
+    parameters:
+      basis: "computational"
+      outcome: 1
+      amplitude_before: "0.707+0j"
+      
+  # Consciousness-specific events
+  - event_id: "conscious_access_001"
+    timestamp: 2.345
+    domain: consciousness
+    description: "Visual percept entered global workspace"
+    affected_nodes: ["G004", "P012"]
+    parameters:
+      processor_id: 5
+      activation: 0.89
+      broadcast_strength: 0.76
+      
+  # Multiverse-specific events
+  - event_id: "timeline_branch_001"
+    timestamp: 3.456
+    domain: multiverse
+    description: "Decision point created 3 new branches"
+    affected_nodes: ["T001", "T002", "T003"]
+    parameters:
+      decision: "Launch vs delay"
+      probabilities: [0.4, 0.35, 0.25]
+Heuristic Log (Original - Updated)
+yaml
+heuristic_log:
+  # Original format preserved
+  - heuristic_id: [string]
+    discovery_time: [float]
+    description: [string]
+    confidence: [float]
+    domain: [physical, biological, social, technical, quantum, consciousness, multiverse]
+    applied_in_scenarios: [list of scenario IDs]
+    
+  # Can now include domain-specific heuristics
+  - heuristic_id: "H_Q_001"
+    discovery_time: 10.5
+    description: "Quantum error rates correlate with cosmic ray events"
+    confidence: 0.78
+    domain: quantum
+    applied_in_scenarios: ["QC_042", "QC_043"]
+    
+  - heuristic_id: "H_C_023"
+    discovery_time: 15.2
+    description: "Φ values above 0.6 predict conscious access in GWT"
+    confidence: 0.84
+    domain: consciousness
+    applied_in_scenarios: ["CS_017", "CS_018"]
+    
+  - heuristic_id: "H_M_007"
+    discovery_time: 22.7
+    description: "Timelines with similar constants converge after ~10^9 years"
+    confidence: 0.71
+    domain: multiverse
+    applied_in_scenarios: ["MV_033"]
+External Simulator Outputs (Original - Updated)
+yaml
+external_sim_outputs:
+  # Original fields
+  QSim: [null or quantum simulator output]
+  EMS: [null or economic simulator output]
+  
+  # Expanded for all laboratory types
+  medical_lab: [null or medical simulation output]
+  chemical_lab: [null or chemical simulation output]
+  aerospace_lab: [null or aerospace simulation output]
+  robotics_lab: [null or robotics simulation output]
+  financial_lab: [null or financial simulation output]
+  legal_lab: [null or legal simulation output]
+  military_lab: [null or defense simulation output]
+  
+  # Quantum hardware outputs
+  ibm_hardware: [null or IBM quantum processor results]
+  ionq_hardware: [null or IonQ trapped ion results]
+  aws_braket: [null or AWS Braket results]
+  
+  # Consciousness validation data
+  fmri_data: [null or neuroimaging reference]
+  eeg_data: [null or electrophysiology reference]
+  behavioral_data: [null or behavioral experiment results]
+Report Field (Original - Updated)
+yaml
+report:
+  # Original structure preserved, now includes:
+  execution_summary:
+    start_time: [timestamp]
+    end_time: [timestamp]
+    domains_activated: [list of domains used]
+    
+  # New Ω.65 report sections
+  quantum_report:
+    circuits_executed: [count]
+    algorithm_success_rate: [float]
+    error_rates: [dict by qubit/gate]
+    hardware_utilization: [float]
+    
+  consciousness_report:
+    phi_values: [list or trajectory]
+    workspace_history: [list of workspace snapshots]
+    hot_counts: [list by level]
+    qualia_trajectory: [list of vectors]
+    altered_state_sequence: [list of state names]
+    
+  multiverse_report:
+    branches_created: [integer]
+    most_probable_path: [list of branch IDs]
+    universe_comparison: [dataframe reference]
+    counterfactuals_generated: [list of IDs]
+    
+  language_report:
+    languages_used: [list]
+    conversions_performed: [list of (source, target)]
+    execution_success_rate: [float]
+    
+  laboratory_report:
+    experiments_run: [list with outcomes]
+    cross_lab_results: [list of integrated experiments]
+    
+  agent_report:
+    agents_active: [integer]
+    tasks_completed: [integer]
+    communication_events: [integer]
+    emergent_behaviors: [list]
+    
+  aris_report:
+    improvement_rate: [float]
+    heuristics_discovered: [list]
+    optimization_gains: [dict by metric]
+Final State Field (Original - Expanded)
+yaml
+final_state:
+  # Original fields preserved
+  physics: [final state description]
+  biology: [final state description]
+  society: [final metrics]
+  technology: [final metrics]
+  emergent: [final cascade status]
+  
+  # New Ω.65 final state fields
+  quantum_state: [final quantum system state]
+  consciousness_state: [final consciousness metrics]
+  multiverse_state: [final timeline/universe positions]
+  laboratory_states: [final lab-specific states]
+  agent_states: [final agent registry and task status]
+  aris_state: [final self-improvement metrics]
+Complete Example Input (Ω.65)
+yaml
+config:
+  resolution: adaptive
   adaptive_heuristics: true
-  node_priority: [R2, R5, R7]
+  node_priority: [R2, R5, Q003, C012, T001]
+  
+  quantum_config:
+    backend: tensor_network
+    qubits: 50
+    noise_model: depolarizing
+    error_correction: surface_code_d3
+    
+  consciousness_config:
+    frameworks: [iit, gwt, qualia]
+    iit_approximation: sampling
+    gwt_capacity: 4
+    qualia_dimensions: 50
+    
+  multiverse_config:
+    timeline_tracking: true
+    max_branches: 100
+    parallel_universes: 5
+    counterfactual_depth: 3
+    
+  language_config:
+    primary_language: python
+    target_languages: [javascript, rust, qiskit]
+    cross_language: true
+    
+  laboratory_config:
+    active_labs: [medical, quantum, robotics]
+    cross_lab_experiments: true
+    
+  agent_config:
+    agent_count: 100
+    agent_autonomy: limited
+    agent_communication: local
+    
+  aris_config:
+    self_improvement: true
+    optimization_cycles: 5
+    heuristic_discovery: true
 
 initial_state:
   physics: stable
@@ -27,6 +311,37 @@ initial_state:
   society: trust_index_65
   technology: network_integrity_99
   emergent: cascading_effects_none
+  
+  quantum_state:
+    circuits: ["qft_30qubit", "grover_16item"]
+    algorithm_in_progress: qaoa
+    quantum_hardware: simulated
+    error_budget: 0.001
+    
+  consciousness_state:
+    iit_system:
+      elements: 15
+      mechanism: "default_neural"
+    gwt_workspace:
+      contents: []
+      attention_weights: [0.2, 0.2, 0.2, 0.2, 0.2]
+    qualia_current: "neutral"
+    
+  multiverse_state:
+    current_timeline: "timeline_prime"
+    current_universe: "universe_alpha"
+    active_branches: []
+    parallel_universes: ["universe_beta", "universe_gamma"]
+    
+  laboratory_states:
+    medical: "idle"
+    quantum: "calibrated"
+    robotics: "standby"
+    
+  agent_states:
+    agent_registry: ["agent_001"..."agent_100"]
+    agent_tasks: {}
+    agent_communication_graph: "fully_connected"
 
 micro_event_log: []
 
@@ -35,13 +350,40 @@ heuristic_log: []
 external_sim_outputs:
   QSim: null
   EMS: null
+  medical_lab: null
+  quantum_lab: null
+  robotics_lab: null
+  ibm_hardware: null
 
 report: null
-final_state: null
 
-## Evaluation Instructions
-- Run all inputs through full SIE stack.
-- Capture micro-event propagation, heuristic discovery, and scenario state transitions.
-- Validate reproducibility by rerunning deterministic seeds.
-- Generate SSP snapshots for all executed scenarios.
-- Record report output in 'report' field.
+final_state: null
+Evaluation Instructions
+Run all inputs through full SIE stack including all Ω.65 capabilities.
+
+Capture micro-event propagation across quantum, consciousness, and multiverse domains.
+
+Track heuristic discovery in all domains.
+
+Validate reproducibility by rerunning deterministic seeds.
+
+Generate SSP snapshots for all executed scenarios with full state preservation.
+
+Record comprehensive report output in 'report' field including all domain-specific metrics.
+
+Verify cross-domain integration where events span multiple new capabilities.
+
+Test language interoperability where specified.
+
+Monitor agent behavior and communication patterns.
+
+Measure ARIS self-improvement across optimization cycles.
+
+Version History
+v1.0 (Original): Basic schema for original SIE capabilities
+
+vΩ.65.TRANSCENDENT (Current): Expanded schema with quantum, consciousness, multiverse, language, laboratory, agent, and ARIS fields
+
+Last Updated: 2024
+Version: vΩ.65.TRANSCENDENT
+Status: Activ
